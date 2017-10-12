@@ -1,0 +1,26 @@
+{
+  "name": "informer",
+  "version": "1.0.0",
+  "description": "Aplicacion exportar recargas de todos los sitios a csv y enviarlos por email",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.1",
+    "cron":  "^1.3.0",
+    "crawler": "^1.0.5",
+    "nodemailer": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Cron",
+    "NodeMailer",
+    "Crawler",
+    "Recargas"
+  ],
+  "author": "Adrian Gutierrez Diaz",
+  "license": "ISC"
+}
