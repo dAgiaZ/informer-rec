@@ -43,11 +43,7 @@ var server = app.listen(app.get('port'),server_ip_address, function () {
 var job = new CronJob({
     cronTime: '* * * * * *',
     onTick: function() {
-        /*
-         * Runs every weekday (Monday through Friday)
-         * at 11:30:00 AM. It does not run on Saturday
-         * or Sunday.
-         */
+
         console.log('Corriendo');
     },
     start: false,
